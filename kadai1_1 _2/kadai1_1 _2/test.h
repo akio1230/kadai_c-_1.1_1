@@ -8,6 +8,8 @@ public:
 	// コピーコンストラクタの宣言
 	test(const test& src);
 
+	// デストラクタの宣言
+	~test();
 
 public:
 	int hp = 0;

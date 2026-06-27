@@ -21,3 +21,8 @@ test::test(const test& src)
 	hp = src.hp;
 	attack = src.attack;
 }
+
+test::~test()
+{
+	std::cout << "”jŠü‚³‚ê‚Ü‚µ‚½" << std::endl;
+}
